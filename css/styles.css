@@ -141,8 +141,7 @@ gap: 40px;
     padding-bottom: 188px;
 }
 .section-team {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px
 }
 .bigest-tital {
 font-size: 56px;
@@ -184,6 +183,9 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+}
+.advatages {
+ padding: 120px 0 120px 0
 }
 .advatages-scroll {
     margin-bottom: 8px;
@@ -232,6 +234,9 @@ gap: 24px;
 .team-bottom {
 padding: 32px 0px;
 }
+.portfolio {
+ padding: 120px 0 120px 0
+}
 .portf-list{
 display: flex;
 flex-wrap: wrap;
@@ -241,8 +246,14 @@ flex-basis: calc((100% - 72px) / 4);
 background: #fff;
 border-radius: 0 0 4px 4px;
 }
+.portf-title {
+margin-bottom: 72px
+}
 .portf-item {
 flex-basis: calc((100% - 48px) / 3);
+}
+.portf-scroll {
+    margin-bottom: 8px
 }
 .portfolio-bottom {
 padding: 32px 16px;
